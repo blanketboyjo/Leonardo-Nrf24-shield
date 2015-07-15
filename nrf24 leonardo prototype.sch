@@ -767,6 +767,10 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <sheets>
 <sheet>
 <plain>
+<text x="-88.9" y="-20.32" size="1.778" layer="91">LEONARDO NRF24 SHIELD
+REV1.0
+JORDAN JONES
+July 2015</text>
 </plain>
 <instances>
 <instance part="U$1" gate="G$1" x="0" y="2.54"/>
@@ -913,4 +917,10 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 </sheets>
 </schematic>
 </drawing>
+<compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
+</compatibility>
 </eagle>
